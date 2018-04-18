@@ -11,6 +11,16 @@ npm install vtranslit-deva-scheme
 ## Node usage
 
 ```js
-const { vTranslitDevaScheme } = require('vtranslit-deva-scheme');
-
+const vTranslitDevaScheme = require('vtranslit-deva-scheme');
 ```
+
+## Browser usage
+
+```html
+<script src="path/to/vtranslit-deva-scheme.js"></script>
+```
+
+```js
+const vTranslitDevaScheme = window.vTranslitDevaScheme;
+```
+
