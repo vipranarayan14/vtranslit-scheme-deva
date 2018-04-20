@@ -5,6 +5,7 @@ export const vTranslitDevaScheme = {
     'type': 'brahmic'
   },
   'data': {
+    'ayogavaha': ['\u0902', '\u0903'],
     'consonants': [
       '\u0915', '\u0916', '\u0917', '\u0918', '\u0919',
       '\u091a', '\u091b', '\u091c', '\u091d', '\u091e',
@@ -25,8 +26,7 @@ export const vTranslitDevaScheme = {
     ],
     'symbols': [
       '\u0966', '\u0967', '\u0968', '\u0969', '\u096a', '\u096b', '\u096c', '\u096d', '\u096e', '\u096f',
-      '\u0964', '\u0965', '\u0950', '\u093d',
-      '\u0902', '\u0903', '\u0901'
+      '\u0964', '\u0965', '\u0950', '\u093d', '\u0901'
     ],
     'virama': [
       '\u094d'
