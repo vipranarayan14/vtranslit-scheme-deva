@@ -85,8 +85,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var vTranslitDevaScheme = exports.vTranslitDevaScheme = {
   'about': {
-    'schemeCode': 'Deva',
-    'schemeName': 'Devanagari',
+    'code': 'Deva',
+    'name': 'Devanagari',
     'type': 'brahmic'
   },
   'data': {
