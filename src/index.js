@@ -2,7 +2,8 @@ export const vTranslitDevaScheme = {
   'about': {
     'code': 'Deva',
     'name': 'Devanagari',
-    'type': 'brahmic'
+    'type': 'brahmic',
+    'unicodeBlock': '0900-097F'
   },
   'data': {
     'ayogavaha': [
