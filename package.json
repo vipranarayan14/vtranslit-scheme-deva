@@ -1,5 +1,5 @@
 {
-  "name": "vtranslit-deva-scheme",
+  "name": "vtranslit-scheme-deva",
   "version": "0.3.0",
   "description": "Devanagari scheme for vTranslit.",
   "keywords": [
@@ -7,9 +7,9 @@
     "vtranslit",
     "indic scripts"
   ],
-  "main": "dist/vtranslit-deva-scheme.npm.js",
+  "main": "dist/vtranslit-scheme-deva.npm.js",
   "files": [
-    "dist/vtranslit-deva-scheme.npm.js"
+    "dist/vtranslit-scheme-deva.npm.js"
   ],
   "scripts": {
     "build": "rimraf dist && webpack",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipranarayan14/vtranslit-deva-scheme.git"
+    "url": "git+https://github.com/vipranarayan14/vtranslit-scheme-deva.git"
   },
   "bugs": {
-    "url": "https://github.com/vipranarayan14/vtranslit-deva-scheme/issues"
+    "url": "https://github.com/vipranarayan14/vtranslit-scheme-deva/issues"
   },
-  "homepage": "https://github.com/vipranarayan14/vtranslit-deva-scheme#readme"
+  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-deva#readme"
 }

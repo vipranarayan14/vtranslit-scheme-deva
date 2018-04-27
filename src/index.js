@@ -1,4 +1,4 @@
-export const vTranslitDevaScheme = {
+export const vTranslitSchemeDeva = {
   'about': {
     'code': 'Deva',
     'name': 'Devanagari',

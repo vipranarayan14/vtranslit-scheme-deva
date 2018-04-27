@@ -2,8 +2,8 @@ const path = require('path');
 
 const entry = './src/index.js';
 
-const filename = 'vtranslit-deva-scheme';
-const libraryName = 'vTranslitDevaScheme';
+const filename = 'vtranslit-scheme-deva';
+const libraryName = 'vTranslitSchemeDeva';
 
 const baseConfig = {
   entry,
@@ -38,7 +38,6 @@ const npmConfig = Object.assign({}, baseConfig, {
   output: {
     filename: `${filename}.npm.js`,
     library: libraryName,
-    libraryExport: libraryName,
     libraryTarget: 'umd',
     path: path.join(__dirname, 'dist')
   }
