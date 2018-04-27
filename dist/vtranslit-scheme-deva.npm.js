@@ -1,5 +1,14 @@
-window["vTranslitDevaScheme"] =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["vTranslitSchemeDeva"] = factory();
+	else
+		root["vTranslitSchemeDeva"] = factory();
+})(typeof self !== 'undefined' ? self : this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -74,7 +83,7 @@ window["vTranslitDevaScheme"] =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitDevaScheme = exports.vTranslitDevaScheme = {
+var vTranslitSchemeDeva = exports.vTranslitSchemeDeva = {
   'about': {
     'code': 'Deva',
     'name': 'Devanagari',
@@ -92,4 +101,5 @@ var vTranslitDevaScheme = exports.vTranslitDevaScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitDevaScheme"];
+/******/ ]);
+});

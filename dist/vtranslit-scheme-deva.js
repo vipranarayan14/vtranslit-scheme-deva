@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vTranslitDevaScheme"] = factory();
-	else
-		root["vTranslitDevaScheme"] = factory();
-})(typeof self !== 'undefined' ? self : this, function() {
-return /******/ (function(modules) { // webpackBootstrap
+window["vTranslitSchemeDeva"] =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -83,7 +74,7 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitDevaScheme = exports.vTranslitDevaScheme = {
+var vTranslitSchemeDeva = exports.vTranslitSchemeDeva = {
   'about': {
     'code': 'Deva',
     'name': 'Devanagari',
@@ -101,5 +92,4 @@ var vTranslitDevaScheme = exports.vTranslitDevaScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitDevaScheme"];
-});
+/******/ ])["vTranslitSchemeDeva"];
