@@ -1,25 +1,25 @@
-# vTranslit-scheme-Deva
+# vtranslit-scheme-deva
 
 Devanagari scheme for vTranslit.
 
-## Installation
+## Installation & Usage
+
+### In Node
 
 ```bash
-npm install vtranslit-scheme-deva
+$ npm install vtranslit-scheme-deva
 ```
-
-## Node usage
 
 ```js
 const { vTranslitDevaScheme } = require('vtranslit-scheme-deva');
 ```
 
-## Browser usage
+### In Browser
 
 ```html
-<script src="path/to/vtranslit-scheme-deva.js"></script>
+<script src="https://unpkg.com/vtranslit-scheme-deva"></script>
 ```
 
 ```js
-const vTranslitDevaScheme = window.vTranslitSchemeDeva;
+const { vTranslitDevaScheme } = window;
 ```
