@@ -1,0 +1,127 @@
+---
+# YAML 1.2
+
+code: Deva
+name: Devanagari
+type: brahmic
+unicodeBlock: 0900-097F
+map:
+  ayogavaha:
+    M: ं
+    H: ः
+  consonants:
+    ka: क
+    kha: ख
+    ga: ग
+    gha: घ
+    ~Na: ङ
+    cha: च
+    Cha: छ
+    ja: ज
+    jha: झ
+    ~na: ञ
+    Ta: ट
+    Tha: ठ
+    Da: ड
+    Dha: ढ
+    Na: ण
+    ta: त
+    tha: थ
+    da: द
+    dha: ध
+    na: न
+    pa: प
+    pha: फ
+    ba: ब
+    bha: भ
+    ma: म
+    ya: य
+    ra: र
+    la: ल
+    La: ळ
+    va: व
+    sha: श
+    Sha: ष
+    sa: स
+    ha: ह
+  deadConsonants:
+    k: क्
+    kh: ख्
+    g: ग्
+    gh: घ्
+    ~N: ङ्
+    ch: च्
+    Ch: छ्
+    j: ज्
+    jh: झ्
+    ~n: ञ्
+    T: ट्
+    Th: ठ्
+    D: ड्
+    Dh: ढ्
+    N: ण्
+    t: त्
+    th: थ्
+    d: द्
+    dh: ध्
+    n: न्
+    p: प्
+    ph: फ्
+    b: ब्
+    bh: भ्
+    m: म्
+    y: य्
+    r: र्
+    l: ल्
+    L: ळ्
+    v: व्
+    sh: श्
+    Sh: ष्
+    s: स्
+    h: ह्
+  symbols:
+    "0": ०
+    "1": १
+    "2": २
+    "3": ३
+    "4": ४
+    "5": ५
+    "6": ६
+    "7": ७
+    "8": ८
+    "9": ९
+    "|": ।
+    "||": ॥
+    OM: ॐ
+    .a: ऽ
+    .N: ँ
+  vowelMarks:
+    a: ""
+    aa: ा
+    i: ि
+    ii: ी
+    u: ु
+    uu: ू
+    RRi: ृ
+    RRI: ॄ
+    LLi: ॢ
+    LLI: ॣ
+    E: े
+    ai: ै
+    O: ो
+    au: ौ
+  vowels:
+    a: अ
+    aa: आ
+    i: इ
+    ii: ई
+    u: उ
+    uu: ऊ
+    RRi: ऋ
+    RRI: ॠ
+    LLi: ऌ
+    LLI: ॡ
+    E: ए
+    ai: ऐ
+    O: ओ
+    au: औ
